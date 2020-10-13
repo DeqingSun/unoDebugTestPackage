@@ -1,0 +1,34 @@
+{
+  "packages": [
+    {
+      "name": "Arduino_Uno_Debug_Package",
+      "maintainer": "Deqing Sun",
+      "websiteURL": "https://github.com/DeqingSun/unoDebugTestPackage",
+      "help": {
+        "online": "https://github.com/DeqingSun/unoDebugTestPackage"
+      },
+      "platforms": [
+        {
+          "name": "Arduino 8-bit with Debug",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/DeqingSun/unoDebugTestPackage"
+          },
+          "url": "http://localhost:8000/avr8debug.tar.bz2",
+          "archiveFileName": "avr8debug.tar.bz2",
+          "checksum": "SHA-256:84ec5388dc2a31356f126f2b748ce841914727484c78a363f8f5334eddec0c32",
+          "size": "505",
+          "boards": [
+            {"name": "Arduino Uno with dwire-debug"}
+          ],
+          "toolsDependencies": [
+
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
