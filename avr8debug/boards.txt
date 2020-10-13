@@ -1,0 +1,28 @@
+
+################################################################################
+#################################### Arduino Uno with dwire-debug ###############################
+################################################################################
+uno_dwire.name=Arduino Uno with dwire-debug 
+
+uno_dwire.vid.0=0x1781
+uno_dwire.pid.0=0x0C9F
+
+uno_dwire.upload.tool=arduino:avrdude
+uno_dwire.upload.protocol=arduino
+uno_dwire.upload.maximum_size=32256
+uno_dwire.upload.maximum_data_size=2048
+uno_dwire.upload.speed=115200
+
+uno_dwire.bootloader.tool=arduino:avrdude
+uno_dwire.bootloader.low_fuses=0xFF
+uno_dwire.bootloader.high_fuses=0xDE
+uno_dwire.bootloader.extended_fuses=0xFD
+uno_dwire.bootloader.unlock_bits=0x3F
+uno_dwire.bootloader.lock_bits=0x0F
+uno_dwire.bootloader.file=optiboot/optiboot_atmega328.hex
+
+uno_dwire.build.mcu=atmega328p
+uno_dwire.build.f_cpu=16000000L
+uno_dwire.build.board=AVR_UNO
+uno_dwire.build.core=arduino:arduino
+uno_dwire.build.variant=arduino:standard
