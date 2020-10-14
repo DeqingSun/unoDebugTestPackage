@@ -129,3 +129,26 @@ tools.avrdude.upload.network_pattern="{network_cmd}" -address {serial.port} -por
 # - from numeric vendor ID, set to Unknown otherwise
 build.usb_manufacturer="Unknown"
 build.usb_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid} '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'
+
+#
+# GDB (Debugger)
+#
+# EXPERIMENTAL feature: debug.pattern
+#  - this is alpha and may be subject to change without notice
+tools.gdb-dwdebug.path={runtime.tools.DWDebugTools.path}/linux
+tools.gdb-dwdebug.path.windows={runtime.tools.DWDebugTools.path}/win
+tools.gdb-dwdebug.path.macosx={runtime.tools.DWDebugTools.path}/macosx
+
+tools.gdb-dwdebug.cmd=avr-gdb
+tools.gdb-dwdebug.cmd.windows=avr-gdb.exe
+tools.gdb-dwdebug.cmd_dw=dwdebug
+tools.gdb-dwdebug.cmd_dw.windows=dwdebug.exe
+
+tools.gdb-dwdebug.interpreter=console
+tools.gdb-dwdebug.debug.pattern="{path}/{cmd}" --interpreter={interpreter} -ex "set remotetimeout 5" -ex "set pagination off" -ex 'target extended-remote | "{path}/{cmd_dw}" gdbpipe device usbtiny1' "{build.path}/{build.project_name}.elf"
+
+
+
+
+
+

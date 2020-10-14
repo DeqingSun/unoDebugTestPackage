@@ -7,6 +7,8 @@ uno_dwire.name=Arduino Uno with dwire-debug
 uno_dwire.vid.0=0x1781
 uno_dwire.pid.0=0x0C9F
 
+uno_dwire.debug.tool=gdb-dwdebug
+
 uno_dwire.upload.tool=arduino:avrdude
 uno_dwire.upload.protocol=arduino
 uno_dwire.upload.maximum_size=32256
