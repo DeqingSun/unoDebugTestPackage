@@ -1,0 +1,4 @@
+arm-none-eabi-gdb is a copy of avr-gdb
+
+dwdebug is compiled with
+https://github.com/DeqingSun/dwire-debug/commit/973be694ca0f3c9fc1f31f87be4df8577ed0220f
