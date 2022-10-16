@@ -2,3 +2,5 @@ arm-none-eabi-gdb is a copy of avr-gdb
 
 dwdebug is compiled with
 https://github.com/DeqingSun/dwire-debug/commit/0df9efa1bbd472ed647edd99303cb50a103b9f05
+
+in branch ArduinoProIDEAlphaTest
