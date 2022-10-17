@@ -33,7 +33,7 @@ TRUNK=$1
 VERSION=$2
 COREVERSION=$3
 
-BASEURL=https://github.com/DeqingSun/ch55xduino/releases/download/${COREVERSION}
+BASEURL=https://github.com/DeqingSun/unoDebugTestPackage/releases/download/${COREVERSION}
 
 ### helper functions #####################################################
 

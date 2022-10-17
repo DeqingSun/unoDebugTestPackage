@@ -106,13 +106,13 @@
                     "systems": [
                         {
                             "host": "x86_64-apple-darwin",
-                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.4/avr8debug-tools_macosx-2022.10.16.tar.bz2",
+                            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.4/avr8debug-tools_macosx-2022.10.16.tar.bz2",
                             "archiveFileName": "avr8debug-tools_macosx-2022.10.16.tar.bz2",
                             "checksum": "SHA-256:1b583b62437099d68534ae1f98e28e12b67196ef93ded81e5486a7112896fb58",
                             "size": "4112836"
                         },{
                             "host": "i686-mingw32",
-                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.4/avr8debug-tools_mingw32-2022.10.16.tar.bz2",
+                            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.4/avr8debug-tools_mingw32-2022.10.16.tar.bz2",
                             "archiveFileName": "avr8debug-tools_mingw32-2022.10.16.tar.bz2",
                             "checksum": "SHA-256:1f079d1eb28f6dcb6b2af0b960a6fbcbb651932a2f51803336bbb6b078819bf7",
                             "size": "3322856"
