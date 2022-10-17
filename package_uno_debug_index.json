@@ -1,125 +1,165 @@
 {
-  "packages": [
-    {
-      "name": "Arduino_Uno_Debug_Package",
-      "maintainer": "Deqing Sun",
-      "websiteURL": "https://github.com/DeqingSun/unoDebugTestPackage",
-      "help": {
-        "online": "https://github.com/DeqingSun/unoDebugTestPackage"
-      },
-      "platforms": [
+    "packages": [
         {
-          "name": "Arduino 8-bit with Debug",
-          "architecture": "avr",
-          "version": "0.0.1",
-          "category": "Contributed",
-          "help": {
-            "online": "https://github.com/DeqingSun/unoDebugTestPackage"
-          },
-          "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.1/avr8debug.tar.bz2",
-          "archiveFileName": "avr8debug.tar.bz2",
-          "checksum": "SHA-256:1881c7af921f3b65a660ca892975271a824ff8f08ac498ebbb9a87558bbeea01",
-          "size": "3717",
-          "boards": [
-            {"name": "Arduino Uno with dwire-debug"}
-          ],
-          "toolsDependencies": [
-              {
-                  "name": "DWDebugTools",
-                  "version": "2020.10.14",
-                  "packager": "Arduino_Uno_Debug_Package"
-              }
-          ]
-        },
-        {
-            "name": "Arduino 8-bit with Debug",
-            "architecture": "avr",
-            "version": "0.0.2",
-            "category": "Contributed",
+            "name": "Arduino_Uno_Debug_Package",
+            "maintainer": "Deqing Sun",
+            "websiteURL": "https://github.com/DeqingSun/unoDebugTestPackage",
             "help": {
                 "online": "https://github.com/DeqingSun/unoDebugTestPackage"
             },
-            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.2/avr8debug.tar.bz2",
-            "archiveFileName": "avr8debug.tar.bz2",
-            "checksum": "SHA-256:cb9946b1e09ac5aa0d09e8aa060d7bd97354cd20bb826669d05455e518ed0faa",
-            "size": "3678",
-            "boards": [
-                {"name": "Arduino Uno with dwire-debug"}
+            "platforms": [
+                {
+                    "name": "Arduino 8-bit with Debug",
+                    "architecture": "avr",
+                    "version": "0.0.4",
+                    "category": "Contributed",
+                    "boards": [
+                        {"name": "Arduino Uno with dwire-debug"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "name": "DWDebugTools",
+                            "version": "2022.10.16",
+                            "packager": "Arduino_Uno_Debug_Package"
+                        }
+                    ],
+                    "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.4/avr8debug-core-0.0.4.tar.bz2",
+                    "archiveFileName": "avr8debug-core-0.0.4.tar.bz2",
+                    "checksum": "SHA-256:eeb690a7fb52551bfa585344c535f170279bc676dac760e9c265ab6a775baaeb",
+                    "size": "3674"
+                },
+                {
+                    "name": "Arduino 8-bit with Debug",
+                    "architecture": "avr",
+                    "version": "0.0.1",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://github.com/DeqingSun/unoDebugTestPackage"
+                    },
+                    "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.1/avr8debug.tar.bz2",
+                    "archiveFileName": "avr8debug.tar.bz2",
+                    "checksum": "SHA-256:1881c7af921f3b65a660ca892975271a824ff8f08ac498ebbb9a87558bbeea01",
+                    "size": "3717",
+                    "boards": [
+                        {"name": "Arduino Uno with dwire-debug"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "name": "DWDebugTools",
+                            "version": "2020.10.14",
+                            "packager": "Arduino_Uno_Debug_Package"
+                        }
+                    ]
+                },
+                {
+                    "name": "Arduino 8-bit with Debug",
+                    "architecture": "avr",
+                    "version": "0.0.2",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://github.com/DeqingSun/unoDebugTestPackage"
+                    },
+                    "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.2/avr8debug.tar.bz2",
+                    "archiveFileName": "avr8debug.tar.bz2",
+                    "checksum": "SHA-256:cb9946b1e09ac5aa0d09e8aa060d7bd97354cd20bb826669d05455e518ed0faa",
+                    "size": "3678",
+                    "boards": [
+                        {"name": "Arduino Uno with dwire-debug"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "name": "DWDebugTools",
+                            "version": "2020.12.18",
+                            "packager": "Arduino_Uno_Debug_Package"
+                        }
+                    ]
+                },
+                {
+                    "name": "Arduino 8-bit with Debug",
+                    "architecture": "avr",
+                    "version": "0.0.3",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://github.com/DeqingSun/unoDebugTestPackage"
+                    },
+                    "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.2/avr8debug.tar.bz2",
+                    "archiveFileName": "avr8debug.tar.bz2",
+                    "checksum": "SHA-256:cb9946b1e09ac5aa0d09e8aa060d7bd97354cd20bb826669d05455e518ed0faa",
+                    "size": "3678",
+                    "boards": [
+                        {"name": "Arduino Uno with dwire-debug"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "name": "DWDebugTools",
+                            "version": "2021.3.26",
+                            "packager": "Arduino_Uno_Debug_Package"
+                        }
+                    ]
+                }
+                
             ],
-            "toolsDependencies": [
+            "tools":[
+                {
+                    "name": "DWDebugTools",
+                    "version": "2022.10.16",
+                    "systems": [
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.4/avr8debug-tools_macosx-2022.10.16.tar.bz2",
+                            "archiveFileName": "avr8debug-tools_macosx-2022.10.16.tar.bz2",
+                            "checksum": "SHA-256:1b583b62437099d68534ae1f98e28e12b67196ef93ded81e5486a7112896fb58",
+                            "size": "4112836"
+                        },{
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.4/avr8debug-tools_mingw32-2022.10.16.tar.bz2",
+                            "archiveFileName": "avr8debug-tools_mingw32-2022.10.16.tar.bz2",
+                            "checksum": "SHA-256:1f079d1eb28f6dcb6b2af0b960a6fbcbb651932a2f51803336bbb6b078819bf7",
+                            "size": "3322856"
+                        }
+                    ]
+                },
+                {
+                    "name": "DWDebugTools",
+                    "version": "2020.10.14",
+                    "systems": [
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.1/avr8debug_tools_macosx-2020.10.14.tar.bz2",
+                            "archiveFileName": "avr8debug_tools_macosx-2020.10.14.tar.bz2",
+                            "checksum": "SHA-256:2732b4e6c9989dbc9fb84f42fd8aa94d11c9bd356387fb6853a50013c7bf1288",
+                            "size": "2050905"
+                        }
+                    ]
+                },
                 {
                     "name": "DWDebugTools",
                     "version": "2020.12.18",
-                    "packager": "Arduino_Uno_Debug_Package"
-                }
-            ]
-        },
-        {
-            "name": "Arduino 8-bit with Debug",
-            "architecture": "avr",
-            "version": "0.0.3",
-            "category": "Contributed",
-            "help": {
-                "online": "https://github.com/DeqingSun/unoDebugTestPackage"
-            },
-            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.2/avr8debug.tar.bz2",
-            "archiveFileName": "avr8debug.tar.bz2",
-            "checksum": "SHA-256:cb9946b1e09ac5aa0d09e8aa060d7bd97354cd20bb826669d05455e518ed0faa",
-            "size": "3678",
-            "boards": [
-                {"name": "Arduino Uno with dwire-debug"}
-            ],
-            "toolsDependencies": [
+                    "systems": [
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.2/avr8debug_tools_macosx-2020.12.18.tar.bz2",
+                            "archiveFileName": "avr8debug_tools_macosx-2020.12.18.tar.bz2",
+                            "checksum": "SHA-256:d192a0674a2103f8068132313ea3c985096c3cd3978fe978e3e19cbf02fbbeea",
+                            "size": "4113424"
+                        }
+                    ]
+                },
                 {
                     "name": "DWDebugTools",
                     "version": "2021.3.26",
-                    "packager": "Arduino_Uno_Debug_Package"
+                    "systems": [
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.3/avr8debug_tools_macosx-2021.03.26.tar.bz2",
+                            "archiveFileName": "avr8debug_tools_macosx-2021.03.26.tar.bz2",
+                            "checksum": "SHA-256:d690a02c388734993086fb2ad5b1569e00c0510de2e68ac704d6373ea8c8a756",
+                            "size": "4113888"
+                        }
+                    ]
                 }
             ]
         }
-
-      ],
-      "tools":[
-          {
-              "name": "DWDebugTools",
-              "version": "2020.10.14",
-              "systems": [
-                  {
-                      "host": "x86_64-apple-darwin",
-                      "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.1/avr8debug_tools_macosx-2020.10.14.tar.bz2",
-                      "archiveFileName": "avr8debug_tools_macosx-2020.10.14.tar.bz2",
-                      "checksum": "SHA-256:2732b4e6c9989dbc9fb84f42fd8aa94d11c9bd356387fb6853a50013c7bf1288",
-                      "size": "2050905"
-                  }
-              ]
-          },
-          {
-              "name": "DWDebugTools",
-              "version": "2020.12.18",
-              "systems": [
-                  {
-                      "host": "x86_64-apple-darwin",
-                      "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.2/avr8debug_tools_macosx-2020.12.18.tar.bz2",
-                      "archiveFileName": "avr8debug_tools_macosx-2020.12.18.tar.bz2",
-                      "checksum": "SHA-256:d192a0674a2103f8068132313ea3c985096c3cd3978fe978e3e19cbf02fbbeea",
-                      "size": "4113424"
-                  }
-              ]
-          },
-          {
-              "name": "DWDebugTools",
-              "version": "2021.3.26",
-              "systems": [
-                  {
-                      "host": "x86_64-apple-darwin",
-                      "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.3/avr8debug_tools_macosx-2021.03.26.tar.bz2",
-                      "archiveFileName": "avr8debug_tools_macosx-2021.03.26.tar.bz2",
-                      "checksum": "SHA-256:d690a02c388734993086fb2ad5b1569e00c0510de2e68ac704d6373ea8c8a756",
-                      "size": "4113888"
-                  }
-              ]
-          }
-      ]
-    }
-  ]
+    ]
 }
+
