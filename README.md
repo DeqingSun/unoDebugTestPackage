@@ -97,3 +97,25 @@ If it still does not work, try to:
 Then you should be able to debug the code.
 
 ![debug in progress](https://raw.githubusercontent.com/DeqingSun/unoDebugTestPackage/main/images/debugInProgress.png) 
+
+### Update Code in Debugging
+
+When you modify the Arduino code and want to update the code within the Arduino chip, you can stop debugging, click **Verify** icon then click the **Start debugging** icon. The debugger will automatically send the new compiled binary to the Arduino chip through the debugging interface.
+
+Note you can not use the regular upload button in Debugging mode, because the bootloader is disabled. 
+
+### Quit Debugging and restore bootloader
+
+When you finish debugging, first stop debugging. Then burn the bootloader twice and the board will quit debugging mode and restore the regular Arduino Uno bootloader. 
+
+The first bootloader burn will fail for sure, but the debugging probe (CH552) will send a quit signal to ATmega328P and enable the ISP interface, then the second bootloader burn will be successful. A power cycle is recommended after the successful burn if you want to debug again later.
+
+## Acknowledgment
+
+The DebugWire protocol investigation and documentation by [RikusW](http://www.ruemohr.org/docs/debugwire.html). The DebugWire protocol is the foundation to debug the ATmega328P.
+
+[dwire-debug](https://github.com/dcwbrown/dwire-debug) project from David C W Brown. The dwire-debug acts as debugger server for avr-gdb. The dwire-debug binary in this repo was compiled with this [branch](https://github.com/DeqingSun/dwire-debug/tree/ArduinoProIDEAlphaTest) with some hack mentioned in the [Arduino IDE issue](https://github.com/arduino/arduino-ide/issues/87#issuecomment-775660437). The DigiSpark/ATTiny85 firmware in dwire-debug project also helped a lot in developing the CH552 firmware.
+
+USBTINY PID/VID usage permission from Limor Fried for class teaching usage. The PID/VID usage create seamless experience with existing bootloader burning feature in the Arduino IDE. 
+
+Pre-compiled avr-gdb from [Microchip website](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-compilers).
