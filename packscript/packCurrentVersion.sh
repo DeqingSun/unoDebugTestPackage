@@ -2,8 +2,8 @@
 
 #prepared for mac
 
-COREVERSION=0.0.4
-TOOLSVERSION=2022.10.16
+COREVERSION=0.0.5
+TOOLSVERSION=2022.11.04
 COREFILE=avr8debug-core-$COREVERSION.tar.bz2
 
 #pack core
