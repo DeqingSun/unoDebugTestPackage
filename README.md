@@ -14,6 +14,8 @@ There are 3 hardware options:
 
 ![Debug Arduino Uno board](https://raw.githubusercontent.com/DeqingSun/unoDebugTestPackage/main/images/connectRegularUno.jpg)
 
+There is a 100nF auto-reset capacitor on the serial adapter side of the jumper. And that capacitor will absorb the high frequency debug signal. So we need to cut the jumper for debugging. The jumper can be connected with a drop of solder after debugging to restore the auto-reset feature. 
+
 ### Using All in One board
 
 ![Debug on All in One board](https://raw.githubusercontent.com/DeqingSun/unoDebugTestPackage/main/images/allInOneBoard.jpg)
