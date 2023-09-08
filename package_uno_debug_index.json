@@ -11,6 +11,26 @@
                 {
                     "name": "Arduino 8-bit with Debug",
                     "architecture": "avr",
+                    "version": "0.0.6",
+                    "category": "Contributed",
+                    "boards": [
+                        {"name": "Arduino Uno with dwire-debug"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "name": "DWDebugTools",
+                            "version": "2023.09.08",
+                            "packager": "Arduino_Uno_Debug_Package"
+                        }
+                    ],
+                    "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.6/avr8debug-core-0.0.6.tar.bz2",
+                    "archiveFileName": "avr8debug-core-0.0.6.tar.bz2",
+                    "checksum": "SHA-256:6d83b41dde84eb5158516c24596d1fbd266a7716c446c406796e5f7eb583aca4",
+                    "size": "3724"
+                },
+                {
+                    "name": "Arduino 8-bit with Debug",
+                    "architecture": "avr",
                     "version": "0.0.5",
                     "category": "Contributed",
                     "boards": [
@@ -120,6 +140,25 @@
                 
             ],
             "tools":[
+                {
+                    "name": "DWDebugTools",
+                    "version": "2023.09.08",
+                    "systems": [
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.6/avr8debug-tools_macosx-2023.09.08.tar.bz2",
+                            "archiveFileName": "avr8debug-tools_macosx-2023.09.08.tar.bz2",
+                            "checksum": "SHA-256:215a7356b47b7b7871f1567366b029ccb58f0efe6f943438332425ccf655770f",
+                            "size": "3176213"
+                        },{
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.6/avr8debug-tools_mingw32-2023.09.08.tar.bz2",
+                            "archiveFileName": "avr8debug-tools_mingw32-2023.09.08.tar.bz2",
+                            "checksum": "SHA-256:899e321fc525f24eea132fd40cf84206474bb03fb28b7a13610862e52d621454",
+                            "size": "3322865"
+                        }
+                    ]
+                },
                 {
                     "name": "DWDebugTools",
                     "version": "2022.11.04",
