@@ -36,7 +36,7 @@ jobs:
           run: |
             echo "Packing the avr8debug excluding hidden files..."
             mkdir -p packedFiles
-            tar -jcv -f ${{ env.tarbz2_name }} -C avr8debug .
+            tar -jcv -f ${{ env.tarbz2_name }} -C ../ avr8debug
         - name: Calculate SHA256 checksum
           id: checksum
           run: |
