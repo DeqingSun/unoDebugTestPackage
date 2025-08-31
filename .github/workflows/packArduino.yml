@@ -64,8 +64,13 @@ jobs:
         #     cp package_ch32v_index_template.json package_ch32v_index_${{ env.branch }}.json
         #     echo "-----preview the file------"
         #     cat package_ch32v_index_template.json
-            
-            
+
+        - name: Add zip file as artifact
+          uses: actions/upload-artifact@v3
+          with:
+            name: ${{ env.zip_basename }}
+            path: ${{ env.zip_name }}
+
         - name: Upload asset, make sure you have a release tagged arduinoPack
           env:
             GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
