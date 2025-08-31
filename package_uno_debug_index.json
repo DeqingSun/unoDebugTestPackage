@@ -11,7 +11,7 @@
                 {
                     "name": "Arduino 8-bit with Debug",
                     "architecture": "avr",
-                    "version": "0.0.6",
+                    "version": "0.0.7",
                     "category": "Contributed",
                     "boards": [
                         {"name": "Arduino Uno with dwire-debug"}
