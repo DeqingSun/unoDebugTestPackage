@@ -64,11 +64,12 @@ jobs:
         #     echo "-----preview the file------"
         #     cat package_ch32v_index_template.json
 
-        - name: Add zip file as artifact
-          uses: actions/upload-artifact@v4
-          with:
-            name: ${{ env.zip_basename }}
-            path: ${{ env.zip_name }}
+        # Artifact will pack it one more time, hard to deal with in mac
+        # - name: Add zip file as artifact
+        #   uses: actions/upload-artifact@v4
+        #   with:
+        #     name: ${{ env.zip_basename }}
+        #     path: ${{ env.zip_name }}
 
         - name: Upload asset, make sure you have a release tagged arduinoPack
           env:

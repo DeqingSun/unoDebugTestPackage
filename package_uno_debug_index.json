@@ -25,8 +25,8 @@
                     ],
                     "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.7/avr8debug-core-0.0.7.zip",
                     "archiveFileName": "avr8debug-core-0.0.7.zip",
-                    "checksum": "SHA-256:4e8104fc217a9a86b78844ac4276312320c6120bccc4c841ed495ced57de2d5d",
-                    "size": "3816"
+                    "checksum": "SHA-256:d50812ba55e257fbd92f5cbec4f732fe40988620c56cb2b135cd2bceca322243",
+                    "size": "4056"
                 },{
                     "name": "Arduino 8-bit with Debug",
                     "architecture": "avr",
