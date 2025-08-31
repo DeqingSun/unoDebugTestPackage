@@ -11,7 +11,7 @@
                 {
                     "name": "Arduino 8-bit with Debug",
                     "architecture": "avr",
-                    "version": "0.0.6",
+                    "version": "0.0.7",
                     "category": "Contributed",
                     "boards": [
                         {"name": "Arduino Uno with dwire-debug"}
@@ -23,10 +23,10 @@
                             "packager": "Arduino_Uno_Debug_Package"
                         }
                     ],
-                    "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.7/avr8debug-core-0.0.7.zip",
-                    "archiveFileName": "avr8debug-core-0.0.7.zip",
-                    "checksum": "SHA-256:a427e16d461b5c2a020cbf74c72732d946d631e42f5d5c7c66db0c7624fb7eff",
-                    "size": "3816"
+                    "url": "https://github.com/DeqingSun/unoDebugTestPackage/releases/download/0.0.7/avr8debug-core-0.0.7.tar.bz2",
+                    "archiveFileName": "avr8debug-core-0.0.7.tar.bz2",
+                    "checksum": "SHA-256:7cb26d3cbca27b70c03c695f9b0bd760fc5f58caf1bc5a35d8bdab52fc328053",
+                    "size": "3646"
                 },{
                     "name": "Arduino 8-bit with Debug",
                     "architecture": "avr",
