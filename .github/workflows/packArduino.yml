@@ -47,6 +47,7 @@ jobs:
             sha256sum ${{ env.zip_name }} | awk '{print $1}' > checksum.txt
             echo "SHA256 Checksum: $(cat checksum.txt)"
             echo "checksum=$(cat checksum.txt)" >> $GITHUB_ENV
+            echo "Size is $(stat -c%s ${{ env.zip_name }}) bytes"
 
         # - name: Replace content in package_ch32v_index_template.json
         #   run: |
