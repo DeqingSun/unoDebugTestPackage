@@ -36,7 +36,7 @@ jobs:
           run: |
             echo "Packing the avr8debug excluding hidden files..."
             shopt -s extglob
-            zip -r "$zip_name" avr8debug/* -x ".*" "*~" "*.zip"
+            (cd avr8debug && zip -r "../$zip_name" . -x ".*" "*~" "*.zip")
 
         - name: Calculate SHA256 checksum
           id: checksum
