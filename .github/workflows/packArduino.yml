@@ -70,9 +70,9 @@ jobs:
             name: ${{ env.zip_basename }}
             path: ${{ env.zip_name }}
 
-        # - name: Upload asset, make sure you have a release tagged arduinoPack
-        #   env:
-        #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        #   run: |
-        #     gh release upload ${{ env.tag }} ${{ env.zip_name }} --clobber
-        #     # gh release upload ${{ env.tag }} package_ch32v_index_${{ env.branch }}.json --clobber
+        - name: Upload asset, make sure you have a release tagged arduinoPack
+          env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          run: |
+            gh release upload ${{ env.tag }} ${{ env.zip_name }} --clobber
+            # gh release upload ${{ env.tag }} package_ch32v_index_${{ env.branch }}.json --clobber
