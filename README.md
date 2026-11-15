@@ -39,7 +39,7 @@ There is a 100nF auto-reset capacitor on the serial adapter side of the jumper. 
 
 ### Install driver for Windows user
 
-The debugger does not need any driver for Mac OS. But it does need LibUSB driver for the debugging/programming interface on Windows. Using [Zadig](zadig.akeo.ie) to install the libusb-win32 driver. 
+The debugger does not need any driver for Mac OS. But it does need LibUSB driver for the debugging/programming interface on Windows. Using [Zadig](zadig.akeo.ie) to install the WinUSB driver. 
 
 ![Install driver on Windows](https://raw.githubusercontent.com/DeqingSun/unoDebugTestPackage/main/images/installDriverInWindows.png)
 
